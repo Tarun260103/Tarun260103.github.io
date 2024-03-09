@@ -3,7 +3,7 @@
 :root {
   --Snigle-font: "sniglet", cursive;
   --Rubik: "Rubik", cursive;
-  --bggradient: linear-gradient(90deg, #ce8e85 0%, #621717 100%);
+  --bggradient: linear-gradient(90deg, #6e1117d3 0%, #8e5959 100%);
 }
 
 * {
@@ -400,4 +400,9 @@ footer .column i + i {
 @keyframes scroll {
   0% {transform: translateX(0);}
   100% {transform: translatex(-1000%)}
+}
+
+.tlogo{
+  height: 45px;
+
 }
