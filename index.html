@@ -1,406 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <title>Tarun's Portfolio</title>
-
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="src/style.css" />
-    <link rel="stylesheet" href="src/mobile-style.css" />
+    <title>Tarun - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-
   <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-      <i class="fa fa-chevron-up" aria-hidden="true"></i>
-    </button>
-    <script>
-      var mybutton = document.getElementById("myBtn");
-      window.onscroll = function () {
-        scrollFunction();
-      };
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 300 ||
-          document.documentElement.scrollTop > 300
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-      function topFunction() {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-        document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
-      }
-    </script>
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Tarun</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-    <header id="main-header">
-      <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="/">
-            <img class="tlogo" src="assets/Screenshot_2024-03-09_203950-removebg-preview.png">
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-            <i class="fas fa-align-right text-light"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="mr-auto"></div>
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#main-header"
-                  >HOME <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#main-about">ABOUT</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#main-project">WORK</a>
-              </li>
-            
-              <li class="nav-item">
-                <a class="nav-link" href="assets/profile.pdf">RESUME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#main-contact">CONTACT</a>
-              </li>
-            </ul>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	        	<li class="nav-item"><a href="work.html" class="nav-link">Work</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <section id="home-section" class="hero">
+    	<h1 class="vr text-center">Tarun</h1>
+		  <div class="js-fullheight home-wrap d-flex">
+		  	<div class="half order-md-last"></div>
+		  	<div class="half">
+			  	<div class="home-slider owl-carousel">
+			      <div class="slider-item js-fullheight">
+			      	<div class="overlay"></div>
+			        <div class="container-fluid p-0">
+			          <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+			          	<div class="one-third img js-fullheight" style="background-image:url(images/IMG_20240309_221729.jpg);">
+			          	</div>
+			        	</div>
+			        </div>
+			      </div>
+
+			      <div class="slider-item js-fullheight">
+			      	<div class="overlay"></div>
+			        <div class="container-fluid p-0">
+			          <div class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+			          	<div class="one-third img js-fullheight" style="background-image:url(images/IMG_20240309_221334.jpg);">
+			          		<div class="overlay"></div>
+			          	</div>
+			        	</div>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+	    </div>
+    </section>
+
+
+    <section class="ftco-section ftco-intro">
+    	<div class="container">
+    		<div class="row justify-content-end">
+    			<div class="col-md-8">
+    				<h2>Software<span> Developer</span> Student</span> eager to bridge the gap between technology and innovation</span></h2>
+    				<p>Whatever you do for others comes around to help you, as well, in the end.</p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="services-section py-5 py-md-0">
+      <div class="container">
+        <div class="row no-gutters d-flex">
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block">
+              <div class="icon"><img style="height : 60px" src="https://www.cdnlogo.com/logos/j/2/java.svg"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">JAVA</h3>
+				<p>	Strong foundation in Java with experience in core concepts and object-oriented programming.</p>
+              </div>
+            </div>      
           </div>
-        </nav>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services active d-block">
+              <div class="icon"><img style="height : 60px" src="https://www.cdnlogo.com/logos/c/1/c-plus-plus.svg"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">C++</h3>
+                <p>Intermediate C++ developer with proficiency in object-oriented programming and core functionalities.</p>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block">
+              <div class="icon"><img style="height : 60px" src="https://www.cdnlogo.com/logos/j/44/javascript.svg"></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">JAVASCRIT</h3>
+                <p>Proficient in JavaScript fundamentals and able to build dynamic web features.</p>
+              </div>
+            </div>      
+          </div>
+			  <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+				<div class="media block-6 services d-block">
+				  <div class="icon"><img style="height : 60px" src="images/PngItem_312155.png"></div>
+				  <div class="media-body">
+					<h3 class="heading mb-3">C</h3>
+					<p>	Strong foundation in C with experience in core concepts .</p>
+				  </div>
+				</div>      
+			  </div>
+			  <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+					<div class="media block-6 services d-block">
+					  <div class="icon"><img style="height : 30px" src="https://www.cdnlogo.com/logos/c/18/css.svg"></div>
+					  <div class="media-body">
+						<h3 class="heading mb-3">CSS</h3>
+						<p>	Proficient in CSS fundamentals and able to build dynamic web features</p>
+					  </div>
+					</div>      
+				  </div>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services active-2 d-block">
+              <div class="icon"><span class="flaticon-contract"></span></div>
+              <div class="media-body">
+                <h3 class="heading mb-3">DATA STRUCTURE</h3>
+                <p>Solid understanding of common data structures and their applications.</p>
+              </div>
+            </div>      
+          </div>
+        </div>
       </div>
-      <div class="container text-left header-ctr">
-        <div class="row d-flex align-items-center">
-          <div class="col-md-7 col-sm-12 header-text">
-            <h2>
-              >
-              <a
-                class="typewrite"
-                data-period="2000"
-                data-type='[ "I am always thrilled.", "I love to create new projects.", "I Love to Code." ]'
-              >
-                <span class="wrap"></span>
-              </a>
-            </h2>
+    </section>
 
-            <h1>Hello! I am Tarun Tiwari</h1>
-            <h5>
-              I'm a computer science student eager to bridge the gap between technology and innovation.
-            </h5>
 
-            <div class="text-left">
-              <a
-                class="button btn btn-light px-5 py-1.5 sayhi"
-                href="https://t.me/Tarun260103"
-                >Say Hi!</a
-              >
+    <section class="ftco-section ftco-portfolio">
+    
+
+    	<div class="container">
+    		<div class="row no-gutters">
+	  			<div class="col-md-12 portfolio-wrap">
+	  				<div class="row no-gutters align-items-center">
+	  					<div class="col-md-5 img js-fullheight" style="background-image: url(images/WhatsApp\ Image\ 2024-03-10\ at\ 01.27.19_3622a003.jpg);">
+	  						
+	  					</div>
+	  					<div class="col-md-7">
+	  						<div class="text pt-5 pl-0 pl-lg-5 pl-md-4 ftco-animate">
+	  							<div class="px-4 px-lg-4">
+	  								<div class="desc">
+		  								<div class="top">
+			  								<span class="subheading"> Java </span>
+				  							<h2 class="mb-4"><a href="work.html">Projects</a></h2>
+			  						
+										</div>
+			  							<div class="absolute">
+				  							<p>Created a Sudoku Solver using Multidimensional Arrays</p>
+				  							<p><a href="https://github.com/Tarun260103/Java-project/blob/main/SudokuSolver.java" class="custom-btn">View on github</a></p>
+			  							</div>
+		  							</div>
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+    	</div>
+
+    	<div class="container-fluid px-0 portfolio-entry">
+    		<div class="row no-gutters d-xl-flex justify-content-end text-wrapper">
+					<div class="one-half img js-fullheight" style="background-image: url('https://msatechnosoft.in/blog/wp-content/uploads/2018/09/Data-Structure-tutorial-MSA-Technosoft.jpg')"></div>
+					<div class="one-half half-text d-flex justify-content-end align-items-center ftco-animate">
+						<div class="text align-items-center d-flex">
+              <div class="desc pt-5 pl-4 pr-4 pt-lg-0 pl-lg-5 pl-xl-0 pr-xl-0">
+								<div class="top">
+  								<span class="subheading"> Data Structure</span>
+	  							<h2 class="mb-4"><a href="work.html">Projects</a></h2>
+  							</div>
+  							<div class="absolute">
+	  							<p>Created a Zig Zag list using Data Structures concept like Linked List</p>
+	  							<p><a href="https://github.com/Tarun260103/Java-project/blob/main/LinkedList.java" class="custom-btn">View on github</a></p>
+  							</div>
+							</div>
             </div>
-            <br />
-          </div>
-        
-        </div>
-      </div>
-    </header>
-
-    <main id="main-screen">
-      <section id="main-about" class="section-1">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-md-6 col-12">
+					</div>
+    		</div>
+    	</div>
+        <!--
+    	<div class="container-fluid px-0 portfolio-entry">
+    		<div class="row no-gutters d-md-flex justify-content-start text-wrapper">
+					<div class="one-half img js-fullheight" style="background-image: url('images/work-3.jpg');"></div>
+					<div class="one-half half-text d-flex justify-content-end align-items-center ftco-animate">
+						<div class="text-2 align-items-start d-flex">
+              <div class="desc pt-5 pr-4 pl-4 pt-lg-0 pr-lg-5 pr-xl-0 pl-xl-0">
+								<div class="top">
+  								<span class="subheading">Illustration {12/06/2019}</span>
+	  							<h2 class="mb-4"><a href="work.html">Jacket Leather</a></h2>
+  							</div>
+  							<div class="absolute">
+	  							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+	  							<p><a href="#" class="custom-btn">View Portfolio</a></p>
+  							</div>
+							</div>
             </div>
-            <div class="col-md-6 col-12">
-              <div class="panel text-left">
-                <h2>About Me</h2>
-                <h3>Tarun Tiwari</h3>
-                <h4>Computer Science Student at IPS Academy, Indore.</h4>
-                <p>
-                  I have a strong interest in web development and am well-versed in the field of computer science. I'm exploring with the dynamic and constantly shifting web, from creating designs to learning about the complexities of the backend.
-                </p>
-                <h4>SKILLS</h4>
-                <p>
-                  C, C++, Javascript, Python, HTML, CSS,<br />
-                  Nodejs, Express, Reactjs, MongoDB, MySQL,<br />
-                  Git, REST API, Linux
-                </p>
+					</div>
+    		</div>
+    	</div>
 
-              
-                <br />
+    	<div class="container">
+    		<div class="row no-gutters">
+	  			<div class="col-md-12 portfolio-wrap">
+	  				<div class="row no-gutters align-items-center">
+	  					<div class="col-md-5 order-md-last img js-fullheight" style="background-image: url(images/work-4.jpg);">
+	  						
+	  					</div>
+	  					<div class="col-md-7">
+	  						<div class="text pt-5 pr-md-5 ftco-animate">
+	  							<div class="px-4 px-lg-4">
+	  								<div class="desc">
+		  								<div class="top">
+			  								<span class="subheading">Application {12/06/2019}</span>
+				  							<h2 class="mb-4"><a href="work.html">Topless</a></h2>
+			  							</div>
+			  							<div class="absolute">
+				  							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+				  							<p><a href="#" class="custom-btn">View Portfolio</a></p>
+			  							</div>
+		  							</div>
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+    	</div>
 
-                <a class="button btn btn-light px-5 py-1.5 sayhi" href="assets/profile.pdf"
-                  >Download Resume</a
-                >
-              </div>
+    	<div class="container-fluid px-0 portfolio-entry">
+    		<div class="row no-gutters d-md-flex justify-content-end text-wrapper">
+					<div class="one-half img js-fullheight" style="background-image: url('images/work-5.jpg');"></div>
+					<div class="one-half half-text d-flex justify-content-end align-items-center ftco-animate">
+						<div class="text align-items-center d-flex">
+              <div class="desc pt-5 pl-5 pr-5 pt-lg-0 pl-lg-5 pl-xl-0 pr-xl-0">
+								<div class="top">
+  								<span class="subheading">Writing {12/06/2019}</span>
+	  							<h2 class="mb-4"><a href="work.html">Fashion Style</a></h2>
+  							</div>
+  							<div class="absolute">
+	  							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+	  							<p><a href="#" class="custom-btn">View Portfolio</a></p>
+  							</div>
+							</div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-2 container-fluid p-0">
-        <div class="container-fluid text-center">
-          <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
-            <div class="slider">
-              <div class="slide-track">
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/m/25/mongodb.svg" alt="" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/n/79/node-js.svg" alt="" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/r/63/react.svg" alt="" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img alt="img" src="https://www.cdnlogo.com/logos/j/44/javascript.svg" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/j/2/java.svg" alt="" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/p/3/python.svg" alt="" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/c/18/css.svg" alt="" class="sliding-logos">
-                </div>
-
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/m/25/mongodb.svg" alt="" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/n/79/node-js.svg" alt="" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/r/63/react.svg" alt="" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img alt="img" src="https://www.cdnlogo.com/logos/j/44/javascript.svg" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/j/2/java.svg" alt="" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/p/3/python.svg" alt="" class="sliding-logos">
-                </div>
-                <div class="slide">
-                  <img src="https://www.cdnlogo.com/logos/c/18/css.svg" alt="" class="sliding-logos">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <section id="main-project" class="section-3">
-        <div class="container text-center">
-          <h1 class="text-dark">Projects I have done</h1>
-          <p class="text-secondary">Kindly visit My Github Profile for My Projects: <a href="https://github.com/Tarun260103">Tarun</a></p>
-        </div>
-        <div class="cards">
-          <div class="d-flex flex-md-row flex-wrap justify-content-center">
-            <div
-              class="card mr-2 d-inline-block shadow-lg"
-              style="width: 18rem"
-            >
-              <img src="assets/proj1.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h4 class="card-title">Sudoku Solver</h4>
-                <p class="card-text">
-                  Created a sudoku solver using multidimensional arrays in java .
-                </p>
-              </div>
-              <div class="card-body">
-                <a
-                  href="https://github.com/Tarun260103/Java-project/blob/main/SudokuSolver.java"
-                  target="_blank"
-                  class="card-link"
-                  >Github Link</a
-                >
-               
-              </div>
-            </div>
-            
-            <div
-              class="card mr-2 d-inline-block shadow-lg"
-              style="width: 18rem"
-            >
-              <img src="assets/proj2.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h4 class="card-title">Zig Zag linked list</h4>
-                <p class="card-text">
-                  Created a zig zag list using the data structures like linked list
-                </p>
-              </div>
-              <div class="card-body">
-                <a
-                  href="https://github.com/Tarun260103/Java-project/blob/main/LinkedList.java"
-                  target="_blank"
-                  class="card-link"
-                  >Github link</a
-                >
-               
-              </div>
-            </div>
-            <!--
-            <div
-              class="card mr-2 d-inline-block shadow-lg"
-              style="width: 18rem"
-            >
-              <img src="assets/proj3.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h4 class="card-title">News App</h4>
-                <p class="card-text">
-                  Created bews app using technologies like Reactjs and News API.
-                </p>
-              </div>
-              <div class="card-body">
-                <a
-                  href="https://github.com/Tarun260103/news-app"
-                  target="_blank"
-                  class="card-link"
-                  >Github link</a
-                >
-              </div>
-            </div>
-
-            <div
-              class="card mr-2 d-inline-block shadow-lg"
-              style="width: 18rem"
-            >
-              <img src="assets/proj4.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h4 class="card-title">Image Editor</h4>
-                <p class="card-text">
-                  Created a image editing app using technologies like
-                  express, nodejs, html, css.
-                </p>
-              </div>
-              <div class="card-body">
-                <a
-                  href="https://github.com/minetrio/Pixel-Polish"
-                  target="_blank"
-                  class="card-link"
-                  >Github link</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      -->
-      </section>
-  
-  </br>
-
-      <section id="main-contact" class="section-4">
-        <div class="contact">
-          <div class="form-container">
-            <h2>Contact Me</h2>
-            <form
-              method="POST"
-              action="https://formspree.io/f/xeqyzkbz"
-            >
-              <div class="input-field">
-                <input type="text" name="name" required="" />
-                <label>Name*</label>
-              </div>
-              <div class="input-field">
-                <input type="email" name="email" required="" />
-                <label>Email*</label>
-              </div>
-              <div class="input-field">
-                <textarea name="message" rows="5" required=""></textarea>
-                <label>Message*</label>
-              </div>
-              <input type="submit" name="" value="Send Message" class="btn" />
-            </form>
-          </div>
-        </div>
-        
-        <div class="quote">
-          <h4>
-            Whatever you do for others comes around to help you, as well, in the end.
-            <br />
-            <br /><b>- Kamado Tanjiro </b>
-          </h4>
-        </div>
+					</div>
+    		</div>
+    	</div>
        
-        
-      </section>
-    </main>
+    	<div class="container">
+    		<div class="row no-gutters">
+	  			<div class="col-md-12 portfolio-wrap">
+	  				<div class="row no-gutters align-items-center">
+	  					<div class="col-md-5 img js-fullheight" style="background-image: url(images/work-6.jpg);">
+	  						
+	  					</div>
+	  					<div class="col-md-7">
+	  						<div class="text pt-5 pl-md-5 pl-md-4 ftco-animate">
+	  							<div class="px-4 px-lg-4">
+	  								<div class="desc">
+		  								<div class="top">
+			  								<span class="subheading">Illustration {12/06/2019}</span>
+				  							<h2 class="mb-4"><a href="work.html">Prickly</a></h2>
+			  							</div>
+			  							<div class="absolute">
+				  							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+				  							<p><a href="#" class="custom-btn">View Portfolio</a></p>
+			  							</div>
+		  							</div>
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</div>
+	  		</div>
+    	</div>
 
-    <footer>
-      <div class="container-fluid p-0">
-        <div class="row text-left">
-          <div class="col-md-9">
-            <h4 class="text-light">Thank you</h4>
-            <p class="text-muted">For any suggestion you can mail me</p>
-            <p class="gmail">@ tiwaritarun936@gmail.com</p>
+    </section>
+  -->
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About</h2>
+              <p></p>Whatever you do for others comes around to help you, as well, in the end.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a target="_blank" href="https://twitter.com/Taruntiwari2601"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a target="_blank" href="https://github.com/Tarun260103"><span class="icon-github"></span></a></li>
+                <li class="ftco-animate"><a target="_blank" href="https://www.instagram.com/tiwari_tarun/?hl=en"><span class="icon-instagram"></span></a></li>
+				<li class="ftco-animate"><a target="_blank" href="https://www.linkedin.com/in/tarun-tiwari-0139a7252"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md-3 follow">
-            <h4 class="text-light">Follow Me</h4>
-            <p class="text-muted">Let us be social</p>
-            <div class="column text-light">
-              <a href="https://www.linkedin.com/in/tarun-tiwari-0139a7252"
-                ><i class="fab fa-linkedin"></i
-              ></a>
-              <a href="https://www.github.com/Tarun260103" target="_blank"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a
-                href="https://www.instagram.com/tiwari_tarun"
-                target="_blank"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="https://www.twitter.com/Taruntiwari2601" target="_blank"
-                ><i class="fab fa-twitter"></i
-              ></a>
+          
+         
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	              
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">tiwaritarun936@gmail.com</span></a></li>
+	              </ul>
+	            </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="pt-5 text-center">
-        <p class="pt-2 text-muted">
-          Copyright ©<script>document.write(/\d{4}/.exec(Date())[0])</script> All rights reserved | Made with unconditional <i class="fas fa-heart"></i> </i> by
-          <a class="sp" href="https://www.github.com/Tarun260103"
-            ><span> Tarun Tiwari </span></a
-          >
-        </p>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://github.com/Tarun260103" target="_blank">Tarun260103</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
       </div>
     </footer>
+    
+  
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="src/main.js"></script>
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
   </body>
 </html>
