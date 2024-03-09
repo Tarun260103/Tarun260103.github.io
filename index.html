@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Tarun's Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+    <link rel="stylesheet" href="src/mobile-style.css" />
+    
+  </head>
+
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 300 ||
+          document.documentElement.scrollTop > 300
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+
+    <header id="main-header">
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="/">
+            TT
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-align-right text-light"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#main-header"
+                  >HOME <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#main-about">ABOUT</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#main-project">WORK</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="assets/profile.pdf">RESUME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#main-contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container text-left header-ctr">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-sm-12 header-text">
+            <h2>
+              >
+              <a
+                class="typewrite"
+                data-period="2000"
+                data-type='[ "I am always thrilled.", "I love to create new projects.", "I Love to Code." ]'
+              >
+                <span class="wrap"></span>
+              </a>
+            </h2>
+
+            <h1>Hello! I am Tarun Tiwari</h1>
+            <h5>
+              I'm a computer science student eager to bridge the gap between technology and innovation.
+            </h5>
+
+            <div class="text-left">
+              <a
+                class="button btn btn-light px-5 py-1.5 sayhi"
+                href="https://t.me/Tarun260103"
+                >Say Hi!</a
+              >
+            </div>
+            <br />
+          </div>
+        
+        </div>
+      </div>
+    </header>
+
+    <main id="main-screen">
+      <section id="main-about" class="section-1">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-12">
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="panel text-left">
+                <h2>About Me</h2>
+                <h3>Tarun Tiwari</h3>
+                <h4>Computer Science Student at IPS Academy, Indore.</h4>
+                <p>
+                  I have a strong interest in web development and am well-versed in the field of computer science. I'm exploring with the dynamic and constantly shifting web, from creating designs to learning about the complexities of the backend.
+                </p>
+                <h4>SKILLS</h4>
+                <p>
+                  C, C++, Javascript, Python, HTML, CSS,<br />
+                  Nodejs, Express, Reactjs, MongoDB, MySQL,<br />
+                  Git, REST API, Linux
+                </p>
+
+              
+                <br />
+
+                <a class="button btn btn-light px-5 py-1.5 sayhi" href="assets/profile.pdf"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-2 container-fluid p-0">
+        <div class="container-fluid text-center">
+          <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+            <div class="slider">
+              <div class="slide-track">
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/m/25/mongodb.svg" alt="" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/n/79/node-js.svg" alt="" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/r/63/react.svg" alt="" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img alt="img" src="https://www.cdnlogo.com/logos/j/44/javascript.svg" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/j/2/java.svg" alt="" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/p/3/python.svg" alt="" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/c/18/css.svg" alt="" class="sliding-logos">
+                </div>
+
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/m/25/mongodb.svg" alt="" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/n/79/node-js.svg" alt="" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/r/63/react.svg" alt="" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img alt="img" src="https://www.cdnlogo.com/logos/j/44/javascript.svg" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/j/2/java.svg" alt="" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/p/3/python.svg" alt="" class="sliding-logos">
+                </div>
+                <div class="slide">
+                  <img src="https://www.cdnlogo.com/logos/c/18/css.svg" alt="" class="sliding-logos">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="main-project" class="section-3">
+        <div class="container text-center">
+          <h1 class="text-dark">Projects I have done</h1>
+          <p class="text-secondary">Kindly visit My Github Profile for My Projects: <a href="https://github.com/Tarun260103">Tarun</a></p>
+        </div>
+        <div class="cards">
+          <div class="d-flex flex-md-row flex-wrap justify-content-center">
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img src="assets/proj1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Sudoku Solver</h4>
+                <p class="card-text">
+                  Created a sudoku solver using multidimensional arrays in java .
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://github.com/Tarun260103/Java-project/blob/main/SudokuSolver.java"
+                  target="_blank"
+                  class="card-link"
+                  >Github Link</a
+                >
+               
+              </div>
+            </div>
+            
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img src="assets/proj2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Zig Zag linked list</h4>
+                <p class="card-text">
+                  Created a zig zag list using the data structures like linked list
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://github.com/Tarun260103/Java-project/blob/main/LinkedList.java"
+                  target="_blank"
+                  class="card-link"
+                  >Github link</a
+                >
+               
+              </div>
+            </div>
+            <!--
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img src="assets/proj3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">News App</h4>
+                <p class="card-text">
+                  Created bews app using technologies like Reactjs and News API.
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://github.com/Tarun260103/news-app"
+                  target="_blank"
+                  class="card-link"
+                  >Github link</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img src="assets/proj4.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Image Editor</h4>
+                <p class="card-text">
+                  Created a image editing app using technologies like
+                  express, nodejs, html, css.
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://github.com/minetrio/Pixel-Polish"
+                  target="_blank"
+                  class="card-link"
+                  >Github link</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    -->
+  </br>
+
+      <section id="main-contact" class="section-4">
+        <div class="contact">
+          <div class="form-container">
+            <h2>Contact Me</h2>
+            <form
+              method="POST"
+              action="https://formspree.io/f/xeqyzkbz"
+            >
+              <div class="input-field">
+                <input type="text" name="name" required="" />
+                <label>Name*</label>
+              </div>
+              <div class="input-field">
+                <input type="email" name="email" required="" />
+                <label>Email*</label>
+              </div>
+              <div class="input-field">
+                <textarea name="message" rows="5" required=""></textarea>
+                <label>Message*</label>
+              </div>
+              <input type="submit" name="" value="Send Message" class="btn" />
+            </form>
+          </div>
+        </div>
+        <div class="quote">
+          <h4>
+            Whatever you do for others comes around to help you, as well, in the end.
+            <br />
+            <br /><b>- Kamado Tanjiro </b>
+          </h4>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-fluid p-0">
+        <div class="row text-left">
+          <div class="col-md-9">
+            <h4 class="text-light">Thank you</h4>
+            <p class="text-muted">For any suggestion you can mail me</p>
+            <p class="gmail">@ tiwaritarun936@gmail.com</p>
+          </div>
+          <div class="col-md-3 follow">
+            <h4 class="text-light">Follow Me</h4>
+            <p class="text-muted">Let us be social</p>
+            <div class="column text-light">
+              <a href="https://www.linkedin.com/in/tarun-tiwari-0139a7252"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://www.github.com/Tarun260103" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/tiwari_tarun"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.twitter.com/Taruntiwari2601" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-5 text-center">
+        <p class="pt-2 text-muted">
+          Copyright ©<script>document.write(/\d{4}/.exec(Date())[0])</script> All rights reserved | Made with unconditional <i class="fas fa-heart"></i> </i> by
+          <a class="sp" href="https://www.github.com/Tarun260103"
+            ><span> Tarun Tiwari </span></a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>
