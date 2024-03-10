@@ -8134,7 +8134,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: gray;
+  background: white;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -8656,7 +8656,7 @@ h1, h2, h3, h4, h5,
 .ftco-intro h2 {
   font-size: 60px; }
   .ftco-intro h2 span {
-    background: #fdcb6e; }
+    background: auto }
 
 .services-section {
   padding: 0; }
